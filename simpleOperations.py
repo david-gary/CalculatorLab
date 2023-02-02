@@ -30,7 +30,7 @@ def simple_calculate(operation, num1, num2):
         # - remember to raise a ValueError if num2 is 0
         result = num1 / num2
         if result == 0:
-            raise ValueError
+            raise ValueError("Error: can't divide by 0")
         return result
     else:
         raise ValueError(
